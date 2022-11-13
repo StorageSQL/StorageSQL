@@ -1,0 +1,22 @@
+{
+  "name": "storagesql",
+  "version": "0.1.0",
+  "description": "StorageSQL",
+  "main": "development.js",
+  "scripts": {
+    "test": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StorageSQL/StorageSQL.git"
+  },
+  "keywords": [
+    "StorageSQL"
+  ],
+  "author": "E5war5IT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StorageSQL/StorageSQL/issues"
+  },
+  "homepage": "https://github.com/StorageSQL/StorageSQL#readme"
+}
