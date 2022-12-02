@@ -479,10 +479,6 @@
         return window.localStorage;
     }
 
-    function setStorage(storage) {
-        window.localStorage = storage;
-    }
-
     /**
      * It returns a string that is the key to use in StorageSQL
      * @param key - The key to store the value under.
@@ -669,7 +665,6 @@
         It is then setting the storageKeys variable to the result of the getStorageKeys function. It is then
         removing the storageKeys variable to the result of the getStorageKeys function. */
         const storage = new Storage();
-        // setStorage(storage);
         setStorageKeys(getStorageKeys());
         removeStorageKeys(getStorageKeys());
 
