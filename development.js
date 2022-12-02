@@ -669,7 +669,7 @@
         It is then setting the storageKeys variable to the result of the getStorageKeys function. It is then
         removing the storageKeys variable to the result of the getStorageKeys function. */
         const storage = new Storage();
-        setStorage(storage);
+        // setStorage(storage);
         setStorageKeys(getStorageKeys());
         removeStorageKeys(getStorageKeys());
 
